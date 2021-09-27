@@ -38,8 +38,7 @@ More than 8 billion people around the world play video games, either recreationa
 export const SECONDARY_STORIES = [
   {
     id: 'b',
-    title:
-      'Politicians scramble as court overrules invalid legislation',
+    title: 'Politicians scramble as court overrules invalid legislation',
     image: {
       src: '/images/politicians.jpg',
       alt: 'Lots of white men in suits listen apathetically to a presentation',
@@ -48,8 +47,7 @@ export const SECONDARY_STORIES = [
   },
   {
     id: 'c',
-    title:
-      'Vintage cars fetch a premium as car industry shifts gears',
+    title: 'Vintage cars fetch a premium as car industry shifts gears',
     image: {
       src: '/images/old-car.jpg',
       alt: 'A vintage old Beetle (car), orange and with signs of wear',
@@ -73,8 +71,7 @@ export const OPINION_STORIES = [
     id: 'o-a',
     author: 'Stephen Abebe',
     avatar: '/images/avatar-stephen-abebe.jpg',
-    title:
-      'Humans need water to survive, and so do your potted plants!',
+    title: 'Humans need water to survive, and so do your potted plants!',
   },
   {
     id: 'o-b',
@@ -152,8 +149,7 @@ export const SPORTS_STORIES = [
       src: '/images/football.jpg',
       alt: 'A football player runs with the ball, whilst being chased by another player',
     },
-    title:
-      'The Texas Giants eke out a victory after a late-game touchdown',
+    title: 'The Texas Giants eke out a victory after a late-game touchdown',
   },
   {
     id: 's-d',

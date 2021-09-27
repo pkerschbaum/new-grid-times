@@ -8,9 +8,7 @@ const Logo = (props) => {
       <Link href="/" {...props}>
         New Grid Times
       </Link>
-      <TodaysDate>
-        {format(new Date(), 'EEEE, MMMM do, yyyy')}
-      </TodaysDate>
+      <TodaysDate>{format(new Date(), 'EEEE, MMMM do, yyyy')}</TodaysDate>
     </Wrapper>
   );
 };

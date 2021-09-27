@@ -14,17 +14,11 @@ const STOCK_GRAPHS_BY_TICKER_SYMBOL = {
   MSFT: '/images/stock-graph-down-3.svg',
 };
 
-const MarketCard = ({
-  tickerSymbol,
-  exchangeName,
-  percentChange,
-}) => {
+const MarketCard = ({ tickerSymbol, exchangeName, percentChange }) => {
   const graphSrc = STOCK_GRAPHS_BY_TICKER_SYMBOL[tickerSymbol];
   const percentageSymbol = percentChange >= 0 ? '+' : '';
   const percentageColor =
-    percentChange >= 0
-      ? 'var(--color-secondary)'
-      : 'var(--color-urgent)';
+    percentChange >= 0 ? 'var(--color-secondary)' : 'var(--color-urgent)';
 
   return (
     <Wrapper>
