@@ -115,9 +115,13 @@ const MainHeader = styled(MaxWidthWrapper)`
   margin-top: 32px;
   margin-bottom: 48px;
 
+  @media ${QUERIES.tabletAndUp} {
+    margin-bottom: 72px;
+  }
+
   @media ${QUERIES.laptopAndUp} {
     margin-top: 16px;
-    margin-bottom: 72px;
+    margin-bottom: 80px;
 
     display: grid;
     grid-template-columns: 1fr auto 1fr;

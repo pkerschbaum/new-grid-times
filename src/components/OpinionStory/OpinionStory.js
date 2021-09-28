@@ -24,7 +24,7 @@ const Wrapper = styled.article`
   grid-template-columns: 1fr 48px;
   grid-template-rows: 1fr;
   grid-template-areas: 'author-and-article avatar';
-  column-gap: 32px;
+  column-gap: 8px;
 
   @media ${QUERIES.tabletOnly} {
     display: revert;
@@ -43,6 +43,10 @@ const Avatar = styled.img`
   object-fit: cover;
 
   grid-area: avatar;
+
+  @media ${QUERIES.tabletOnly} {
+    margin-bottom: 8px;
+  }
 `;
 
 const AuthorAndArticle = styled.div`
